@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class RoomsComponent implements OnInit {
 
   hotelName :string = 'Lourd Hotel';
+  numberOfRooms : Number = 10;
   
   constructor() { }
 
